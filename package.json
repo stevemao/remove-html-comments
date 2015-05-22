@@ -1,6 +1,6 @@
 {
   "name": "remove-html-comments",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Remove comments in html",
   "homepage": "https://github.com/stevemao/remove-html-comments",
   "author": {
