@@ -47,8 +47,7 @@ function extraInfo(comments) {
       console.log(chalk.red(comment) + chalk.magenta('removed'));
     });
 
-    console.log(chalk.red('✖ ') +
-      removedCount + ' comments removed.');
+    console.log(chalk.red('✖ ') + removedCount + ' comments removed.');
   }
 }
 
