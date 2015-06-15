@@ -73,7 +73,7 @@ if (process.stdin.isTTY) {
         }
       });
     } else {
-      console._stdout.write(result.data);
+      process.stdout.write(result.data);
     }
 
     extraInfo(result.comments);
@@ -82,7 +82,7 @@ if (process.stdin.isTTY) {
   process.stdin
     .pipe(concat(function(data) {
       var result = removeHtmlComments(data);
-      console._stdout.write(result.data);
+      process.stdout.write(result.data);
       extraInfo(result.comments);
     }));
 }
